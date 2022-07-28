@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Nothing to do in the application step."
+cd /home/ubuntu/nodejs
+pm2 start -f app.js
